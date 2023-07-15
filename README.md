@@ -7,3 +7,5 @@ Foram criados dois projetos separados: sendo um para a API e outro para o front-
 
 # Observação
 O trabalho ainda está em andamento, estou tentando fazer algumas melhorias, como por exemplo fazer rodar os metódos Edit e Delete no front-end em React.
+
+Todas as imagens utilizadas nesse projeto foram criadas e editadas no app Canva - Ferramenta gratuita de design.
