@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  box-shadow: 1px 1px 3px 3px rgb(61, 60, 0.4);
+}
+
+.footer {
+  width: 100%;
+  padding-block: 1.5rem;
+  position: relative
+}
+
+footer .footer_box{
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.3fr repeat(2, 1fr) 2fr;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.footer_social {
+  display: flex;
+  gap: 1.3rem;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.footer_social a {
+  padding: .2rem;
+  border-radius: 50%;
+  transition: all .3s ease-in;
+  display: grid;
+}
+

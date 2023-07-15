@@ -1,0 +1,57 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 8px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.circle div {
+    background: url(../assets/dr1.png) no-repeat;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+.circle {  
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.circle2 div {
+    background: url(../assets/dr2.png) no-repeat 30%;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    
+}
+
+.circle2 {
+       
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+.circle3 div {
+    background: url(../assets/dr3.png) no-repeat 50%;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    
+}
+
+.circle3 {
+      
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+}
