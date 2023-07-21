@@ -6,14 +6,11 @@ import { MDBCard,
     MDBBadge,
     MDBCol,
     MDBRow } from 'mdb-react-ui-kit';
-//import { useParams } from "react-router"
 
 export default function SchedulesList() {
 
     const [scheduleList, setScheduleList] = useState([])
    
-    
-      //let { id } = useParams()
 
     useEffect(() => {
         axios.get('http://127.0.0.1:5000/agendamentos')
@@ -21,16 +18,16 @@ export default function SchedulesList() {
             .catch(error => console.log(error))
     }, [])
     
-   /* const handleDelete = (id, e) =>{
+   const handleDelete = (id, e) =>{
         e.preventDefault();
         if(window.confirm('Você deseja exlcluir esse agendamento?')) {
-            axios.delete(`http://127.0.0.1:5000/agendamento/${id}`)
+            axios.delete(`http://127.0.0.1:5000/agendamento?id=${id}`)
             .then((response) => {
                 console.log('Deletado!', response)
-                this.setData();
+                this.setScheduleList();
             }).catch(error => console.log(error))
         }
-    }*/
+    }
     
     return (
         <div style={{marginBottom: '70px'}}>
@@ -60,7 +57,7 @@ export default function SchedulesList() {
                                                 </MDBBadge>
                                                 <MDBBadge pill color='danger' light 
                                                     style={{margin: 'auto', width:'100px', padding:'15px'}}
-                                                    /*onClick={(e)=>{handleDelete(agendamento.id, e)}}*/>
+                                                    onClick={(e)=>{handleDelete(agendamento.id, e)}}>
                                                     DELETAR
                                                 </MDBBadge>
                                             </div>
