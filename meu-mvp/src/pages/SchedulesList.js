@@ -24,7 +24,6 @@ export default function SchedulesList() {
             axios.delete(`http://127.0.0.1:5000/agendamento?id=${id}`)
             .then((response) => {
                 console.log('Deletado!', response)
-                this.setScheduleList();
             }).catch(error => console.log(error))
         }
     }
