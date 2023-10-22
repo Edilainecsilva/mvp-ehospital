@@ -1,8 +1,24 @@
 # Meu Front-end em React
 
-Este é um MVP que foi solicitado no curso de Desenvolvimento Full Stack da PUC RIO, referente a Sprint: Desenvolvimento Front-end Avançado. Foi solicitado para cada aluno criar o seu próprio MVP. Este trabalho foi criado com Front-end baseado em react e api em flask. O meu MVP trata-se de uma API refente ao cadastro, vizualização e remocão de dados de Agendamentos efetuadas. O MVP foi criado utilizando a linguagem Pyhton com Flask, SQLAlchemy e Sqlite3, utilizando também Html, Java Script, CSS e JSON. Foram criados dois projetos separados: sendo um para a API e outro para o front-end em React.
+## Edilaine MVP-estore
 
+Este é um MVP que foi solicitado no curso de **Desenvolvimento Full Stack da PUC RIO**, referente a Sprint: Desenvolvimento Front-end Avançado.
+O mesmo trata-se de um site online, criado utilizando a biblioteca React onde é possível vizualizar 5 páginas criadas com diversos componentes. E temos também uma interação com uma API em Pyhton refente ao cadastro, vizualização e remocão de dados de Agendamentos efetuados no Front-end. 
 
+## Componente A - Front-end
+
+ ---
+ # Funcionalidades
+    Na página inicial(home), o usuário pode:
+    -Visualizar informações sobre o Ehospital, contendo um carrosel com imagens, links, cards e textos.
+
+    Na página de Agendamentos, o usuário pode:
+    -Adicionar um novo agendamento, preenchendo todos os campos do formulário.
+
+    Na página Lista de Agendamentos, o usuário pode:
+    -Ver os agendamentos já criados, com seus dados.
+    -Deteletar um agendamento, clicando no botão delete.
+    -Botão editar ainda está em andamento, não foi concluído.
 
 ## Como executar o front
 
