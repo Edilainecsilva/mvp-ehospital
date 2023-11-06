@@ -32,6 +32,10 @@ O mesmo trata-se de um site online, criado utilizando a biblioteca React onde é
 ## Apresentação e prototipação
     vídeo do projeto:https://www.youtube.com/watch?v=SjH6ZilFQWg
     prototipação utilizando figma: https://www.figma.com/file/Bm3l5VIOkXz2tcPoZRY3SD/mvp_edilaine?type=design&node-id=0%3A1&mode=design&t=cU4CdOpXzC0hsgsN-1
+    diagrama do projeto: 
+    
+![MVP-ESHOSPITAL](https://github.com/Edilainecsilva/mvp-ehospital/assets/112878712/a376903c-dc80-463d-8bc8-a5a34ecf33aa)
+
 
 # Referências
 
